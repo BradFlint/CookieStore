@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+#kitchen{
+	width: 100%;
+	height: 1250px;
+	margin-top: 0;
+	margin-bottom: 100px;
+	background-image: url("kitchen.jpg");
+	background-size: cover;
+	text-align: center;
+}
+
+.cookie-wrapper{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.image-wrapper{
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin-right: 45px;	
+	margin-bottom: 25px;
+}
+
+.image-wrapper img{
+	width: 100%;
+	height: 100%;
+	padding: 20px 40px 20px 40px;
+	margin-left: 200px;
+	margin-top: 175px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	position: relative;
+
+}
+
+#goods{
+	width: 30%;
+	height: 235px;
+	float: left;
+	padding: 50px 50px 300px 50px;
+	background-color:#F1CC5F;
+	color: black;
+	position: absolute;
+	border-radius: 15px;
+	margin-bottom: 500px
+	border: 5px solid black;
+	font-family: Raleway;
+	top: 530px;
+	left: 475px;
+	z-index: 2;
+}
+
+#header{
+	width: 100%;
+	height: 120px;
+	background-color: #FA091F;
+	position: fixed;
+	top: 0;
+	box-shadow: 0 10px 6px -9px #333;
+	font-family: Raleway;
+	position: absolute;
+}
+
+#header h2{
+	font-size: 75px;
+	margin-top:14px;
+	text-align: center;
+	color: #A5CB92;
+}
+
+#reset{
+	font-size: 37px;
+	border-radius: 10px;
+	background-color: #39311F;
+	color: white;
+	margin-top: 45px;
+	font-family: Raleway;
+}
+
+#reset:hover{
+	background-color:#B2B2B2;
+}
+
+#chocbutton{
+	font-size: 28px;
+	border-radius: 10px;
+	background-color: #39311F;
+	color: white;
+	margin-top: 45px;
+	font-family: Raleway;
+	position: absolute;
+	top: 100px;
+	left: 320px;
+}
+
+#chocbutton:hover{
+	background-color:#FCE7AB;
+}
+
+#sugarbutton{
+	font-size: 28px;
+	border-radius: 10px;
+	background-color: #D8AE51;
+	color: white;
+	margin-top: 45px;
+	font-family: Raleway;
+	position: absolute;
+	top: 100px;
+	left: 660px;
+}
+
+#sugarbutton:hover{
+	background-color:#FCE7AB;
+}
+
+#lemonbutton{
+	font-size: 28px;
+	border-radius: 10px;
+	background-color: #FAFA10;
+	color: white;
+	margin-top: 45px;
+	font-family: Raleway;
+	position: absolute;
+	top: 100px;
+	left: 1000px;
+}
+
+#lemonbutton:hover{
+	background-color:#FCE7AB;
+}
+
+#chocolatecount{
+	font-size: 35px;
+	width:50%;
+	text-align: center;
+	background-color: white;
+	color: black;
+	height:50px;
+	margin-left: 105px;
+	border: 3px solid black;
+}
+
+
+#sugarcount{
+	font-size: 35px;
+	width: 50%;
+	height: 50px;
+	text-align: center;
+	background-color: white;
+	color: black;
+	margin-left: 105px;
+	border: 3px solid black;
+}
+
+#lemoncount{
+	font-size: 35px;
+	width: 50%;
+	height: 50px;
+	text-align: center;
+	background-color: white;
+	color: black;
+	margin-left: 105px;
+	border: 3px solid black;
+}
+
+#bank{
+	width: 70%;
+	height: 305px;
+	border-top: 3px black solid;
+	position: absolute;
+	top: 510px;
+	left: 240px;
+	z-index: +1;
+	background-color:#A5CB92;;
+}
+
+#footer{
+	width: 100%;
+	height: 150px;
+	background-color: #FA091F;
+	position: absolute;
+	top: 1200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
